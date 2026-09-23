@@ -1,0 +1,29 @@
+{
+  "name": "cocad-file-reader",
+  "version": "1.0.0",
+  "description": "Read CoCAD .cocad documents without CoCAD. A zero-dependency reader for the published .cocad format, version 1.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./src/reader.js",
+  "bin": {
+    "cocad-read": "./bin/cocad-read.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "SPEC.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cocad",
+    "cad",
+    "file-format",
+    "reader",
+    "open-data"
+  ]
+}
